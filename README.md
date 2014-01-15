@@ -6,6 +6,7 @@
 - System Settings -> Details -> Removable Media -> Never prompt or start programs on media insertion
 
 ```sh
+$ sudo apt-get install git
 $ git clone http://github.com/gamespace/arcade.git
 $ cd arcade
 $ ./launcher.py
