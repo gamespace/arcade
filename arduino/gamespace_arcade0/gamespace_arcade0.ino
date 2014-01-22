@@ -2,7 +2,7 @@ const int pin_switch = 2;
 const int pin_button_count = 7;
 const int pin_button_min = 3;
 const int pin_button_max = pin_button_min + pin_button_count;
-const char keys[] = { 'a', 'd', 'w', ' ', 'n', 'm' };
+const char keys[] = { 'a', 'd', 'w', 's', ' ', 'n', 'm' };
 
 void setup()
 {
