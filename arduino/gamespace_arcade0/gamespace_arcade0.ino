@@ -2,7 +2,7 @@ const int pin_switch = 2;
 const int pin_button_count = 8;
 const int pin_button_min = 3;
 const int pin_button_max = pin_button_min + pin_button_count;
-const char keys[] = { 'a', 'd', 'w', 's', ' ', 'n', 'm' , ' '};  // SPACE as a start button, for example for a money slot
+const char keys[] = { 'a', 'd', 'w', 's', ' ', 'n', 'm' , '\10'};  // ENTER as a start button, for example for a money slot
 
 // FEEDBACK
 const int pin_led    =13;
